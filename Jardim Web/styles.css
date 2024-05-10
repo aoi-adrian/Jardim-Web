@@ -9,6 +9,8 @@
 
 body {
     background-image: url("Jardim\ Web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 25px;
     font-family: Kadwa;
 }
@@ -19,7 +21,7 @@ body {
 
 }
 
-#extraDiv1{
+/*#extraDiv1{
     position:absolute;
     background-color: #F2A20D;
     width: 33%;
@@ -37,7 +39,7 @@ body {
     width: 33%;
     height: 60%;
     border: 1em solid green;
-}*/
+}
 
 #extraDiv1{
     position:absolute;
@@ -77,20 +79,17 @@ body {
     outline: .5em dashed var(--cor-de-fundo);
     transition: 3s;
 }
-
-/*#extraDiv2{
+*/
+#extraDiv2{
     z-index: 60;
     position: absolute;
     background-color: #000000;
-    width: 33%;
-    height: 60%;
+    width: 28%;
+    height: 56%;
     border-radius: 100%;
-    border-width: 2em;
-    border-style: double;
-    border-color: var(--cor-de-fundo);
-    transition: 3s;
+    background-image: radial-gradient(#000000 65%, #FF8311 70%, #FFC195 78%);
 }
-*/
+
 
 
 .header h1{
